@@ -1,0 +1,149 @@
+.showPageParant{
+    height: 80vh;
+    width: 100%;
+    overflow-y: auto;
+    border-width: 1px;
+    border-radius: 10px;
+    background-color: transparent;
+    position: fixed;
+    z-index: 100;
+    backdrop-filter: blur(20px);
+    top: 100%;
+    scrollbar-width: none;
+    opacity: 0;
+    transition: all .25s ease-in-out;
+}
+.food-img-section{
+    height: 70%;
+    width: 40%;
+    padding: 1rem;
+    position: relative;
+}
+.current-img{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.current-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.food-info-section{
+    height: 70%;
+    width: 50%;
+    padding: 1rem;
+    position: relative;
+    /* border-style: solid; */
+}
+.info-section-food{
+    padding: 1rem;
+}
+.page{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    scrollbar-width: none;
+    background: transparent;
+    scroll-behavior: smooth;
+
+}
+.pageicon{
+    display: flex;
+    justify-content: space-between;
+    padding: 1px  1rem;
+}
+.pageicon button{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    border-radius: 10px;
+    padding: 10px;
+    border-style: none;
+    background-color: black;
+    color: azure;
+    cursor: pointer;
+}
+.restorent{
+    display: flex;
+    padding: 10px 5px;
+    position: relative;
+    gap: 10px;
+    align-items: center;
+}
+.resto-img{
+    position: relative;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    border-style: none;
+}
+.resto-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.food-cuntry{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    justify-content: space-between;
+}
+.food-name-prices{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    justify-content: space-between;
+}
+.food-info-btn{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    justify-content: space-evenly;
+}
+.food-info-btn button{
+    padding: 5px;
+    border-radius:5px;
+    border-style: none;
+    background: black;
+    color: aliceblue;
+
+
+}
+
+/* this for message */
+.message{
+    position: fixed;
+    padding:10px 1rem ;
+    width: 35%;
+    border-style: none;
+    border-radius: 10px;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+    top: -10vh;
+    opacity: 1;
+    left: 30%;
+    
+}
+.message-call{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: space-between;
+    border-style: none;
+    border-radius: 10px;
+}
+.message-call button{
+    padding: 5px;
+    cursor: pointer;
+    border-style: none;
+    border-radius: 10px;
+    background: #494949;
+    color: white;
+    
+}
